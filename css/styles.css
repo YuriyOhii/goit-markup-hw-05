@@ -103,7 +103,7 @@ body {
 }
 .main-nav .link:hover,
 .main-nav .link:focus {
-  color: inherit;
+  color: var(--brand-hovered-color);
 }
 .main-nav .link.current {
   color: var(--primary-brand-color);
@@ -235,6 +235,7 @@ body {
 .team.section {
   background-color: var(--light-color);
   padding-bottom: 110px;
+  padding-top: 120px;
 }
 .card {
   background-color: var(--main-bkg-color);
